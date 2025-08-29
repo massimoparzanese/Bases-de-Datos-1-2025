@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="Página-1" id="GOs5G20gfHr8qNgVtABF">
-    <mxGraphModel dx="1699" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2073" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,6 +169,16 @@
             <mxPoint x="-6" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0wOUTwKlv7GaTqWgaDpC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="0wOUTwKlv7GaTqWgaDpC-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-284.42857142857133" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wOUTwKlv7GaTqWgaDpC-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" edge="1" parent="1" source="0wOUTwKlv7GaTqWgaDpC-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="489.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0wOUTwKlv7GaTqWgaDpC-45" value="Logro" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-310" y="490" width="100" height="40" as="geometry" />
         </mxCell>
@@ -184,6 +194,12 @@
         </mxCell>
         <mxCell id="0wOUTwKlv7GaTqWgaDpC-46" value="obtiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-140" y="486.25" width="90" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0wOUTwKlv7GaTqWgaDpC-55" value="descripcion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="477" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wOUTwKlv7GaTqWgaDpC-56" value="nombre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="422" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

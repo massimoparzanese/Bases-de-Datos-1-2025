@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="Página-1" id="UM8QrNS1cJXv6U8iXkxn">
-    <mxGraphModel dx="1853" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1699" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-1" value="&lt;div&gt;En una red social hay usuarios que publican contenidos y realizan publicaciones. Los usuarios&lt;/div&gt;&lt;div&gt;pueden crear álbumes y agregar a otros usuarios para que participen en los mismos. Cada&lt;/div&gt;&lt;div&gt;usuario que participa en un álbum puede cargar varios contenidos, que pueden ser fotos o&lt;/div&gt;&lt;div&gt;vídeos. De las fotos se conoce la resolución y el formato, mientras que de los videos se conoce&lt;/div&gt;&lt;div&gt;la duración. De todo contenido se guarda un comentario y la fecha de publicación, y también&lt;/div&gt;&lt;div&gt;debe ser posible saber qué usuario lo cargó. Para cada álbum, además de los participantes, es&lt;/div&gt;&lt;div&gt;importante saber quién fue su creador, y también su fecha de creación, nombre y descripción.&lt;/div&gt;&lt;div&gt;Los usuarios también realizan publicaciones. De cada publicación se guarda un texto, fecha de&lt;/div&gt;&lt;div&gt;publicación y, opcionalmente, un contenido que puede ser una foto o un video (a lo sumo uno).&lt;/div&gt;&lt;div&gt;Las publicaciones también contienen etiquetas que facilitan su búsqueda. Muchas&lt;/div&gt;&lt;div&gt;publicaciones pueden tener la misma etiqueta, de la cual se conoce sólo un nombre. De cada&lt;/div&gt;&lt;div&gt;usuario se conoce su nombre de usuario, email y nombre completo.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-210" width="530" height="190" as="geometry" />
+          <mxGeometry x="45" y="-220" width="530" height="190" as="geometry" />
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -17,22 +17,12 @@
             <mxPoint x="565" y="373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LfVI_r5S6F1vF6gZNUYX-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.193;exitY=0.07;exitDx=0;exitDy=0;endArrow=oval;endFill=1;exitPerimeter=0;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="559" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-2" value="Foto" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="540" y="313" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=0;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="797" y="362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LfVI_r5S6F1vF6gZNUYX-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="742" y="372" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-3" value="Video" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -107,15 +97,17 @@
             <mxPoint x="70.19999999999999" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LfVI_r5S6F1vF6gZNUYX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-27" target="LfVI_r5S6F1vF6gZNUYX-78" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LfVI_r5S6F1vF6gZNUYX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.01;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="g68JzVaNpoJwYkY7t_2r-1" target="LfVI_r5S6F1vF6gZNUYX-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-83" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LfVI_r5S6F1vF6gZNUYX-79" vertex="1" connectable="0">
           <mxGeometry x="-0.1949" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="waa-Rt8cGS3HyiVynu9V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" edge="1" parent="1" source="LfVI_r5S6F1vF6gZNUYX-27">
+        <mxCell id="waa-Rt8cGS3HyiVynu9V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=oval;endFill=1;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="430" as="targetPoint" />
           </mxGeometry>
@@ -130,7 +122,7 @@
           <mxGeometry x="40" y="315" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-35" value="crea" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="180" y="230" width="80" height="48" as="geometry" />
+          <mxGeometry x="430" y="314" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.179;entryY=0.971;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="LfVI_r5S6F1vF6gZNUYX-35" target="LfVI_r5S6F1vF6gZNUYX-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -193,9 +185,6 @@
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-62" value="fecha_creacion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="265" y="98.42999999999999" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LfVI_r5S6F1vF6gZNUYX-67" value="idVideo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="717" y="370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-68" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;nombre_usuario&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="430" width="80" height="22" as="geometry" />
@@ -289,9 +278,6 @@
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-106" value="texto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="780" y="-150.00000000000003" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LfVI_r5S6F1vF6gZNUYX-107" value="idfoto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="530" y="262" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="LfVI_r5S6F1vF6gZNUYX-108" value="tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="625" width="90" height="38" as="geometry" />
         </mxCell>
@@ -349,6 +335,9 @@
           <mxGeometry x="-0.2287" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g68JzVaNpoJwYkY7t_2r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="98.43" width="410" height="321.57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
